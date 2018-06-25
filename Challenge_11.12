@@ -11,10 +11,4 @@ import time
 
 
 def measureTime():
-    start = time.time()
-    return map(lambda x: x * 2, range(5))
-    elapsed = time.time()
-    elapsed = elapsed - start
-    print("Time spent  is: ", elapsed)
-
-measureTime()
+ 
